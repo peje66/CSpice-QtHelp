@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>cspice</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <!-- customFilter name="My Application 1.0">
+        <filterAttribute>myapp</filterAttribute>
+        <filterAttribute>1.0</filterAttribute>
+    </customFilter -->
+    <filterSection>
+        <filterAttribute>cspice</filterAttribute>
+        <filterAttribute>N0064</filterAttribute>
+        <toc>
+            <section title="CSpice Documentation" ref="index.html">
+                <section title="Introduction to the SPICE System" ref="info/intrdctn.html"/>
+                <section title="Introduction to C Implementation of SPICE" ref="req/cspice.html"/>
+                <section title="CSPICE Toolkit Contents" ref="info/dscriptn.html" />
+                <section title="Most Used CSPICE APIs" ref="info/mostused.html"/>
+                <section title="CSPICE API Reference Guide" ref="cspice/index.html"/>
+                <section title="CSPICE API Permuted Index" ref="info/cspice_idx.html"/>
+                <section title="Required Reading Documents" ref="req/index.html"/>
+                <section title="User's Guides" ref="ug/index.html"/>
+                <section title="What's New in SPICE" ref="info/whatsnew.html"/>
+                <section title="naif.jpl.nasa.gov" ref="http://naif.jpl.nasa.gov"/>
+            </section>
+        </toc>
+        <keywords>
+KEYWORDS
+				</keywords>
+        <files>
+FILES
+				</files>
+    </filterSection>
+</QtHelpProject>
