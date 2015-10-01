@@ -19,5 +19,9 @@ Then:
     cd <cspice-dir>/doc/html
     make -f ~/CSpice-QtHelp/Makefile
 ```
+Optionally:
+```Shell
+    make -f ~/CSpice-QtHelp/Makefile test
+```
 Now you have a `cspice.qch` ready for use in `assistant-qt4` or `kdevelop`
 
