@@ -24,10 +24,10 @@
             </section>
         </toc>
         <keywords>
-KEYWORDS
+TAG_KEYWORDS_XYZ
         </keywords>
         <files>
-FILES
+TAG_FILES_XYZ
         </files>
     </filterSection>
 </QtHelpProject>

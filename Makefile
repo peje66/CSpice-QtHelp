@@ -5,7 +5,7 @@ cspice.qch : cspice.qhp
 
 cspice.qhp : $(SELF_DIR)cspice.qhp.in keywords.txt files.txt
 	# replace content of keywords.txt & files.txt into target
-	sed  -e "/KEYWORDS/r keywords.txt" -e "/KEYWORDS/d" -e "/FILES/r files.txt" -e "/FILES/d" $< > $@
+	sed  -e "/TAG_KEYWORDS_XYZ/r keywords.txt" -e "/TAG_KEYWORDS_XYZ/d" -e "/TAG_FILES_XYZ/r files.txt" -e "/TAG_FILES_XYZ/d" $< > $@
 
 .PHONY : keywords.txt files.txt
 keywords.txt :
