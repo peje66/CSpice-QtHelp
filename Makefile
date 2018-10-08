@@ -13,7 +13,7 @@ keywords.txt :
 	for i in *.html cspice/*.html; \
 	do \
 		fn=$$(basename $$i .html); \
-		echo '<keyword name="'$$fn'" id="'$$fn'" ref="'$$i'#Procedure"/>'; \
+		echo '<keyword name="'$$fn'" id="cspice::'$$fn'" ref="'$$i'#Procedure"/>'; \
 		awk -f $(SELF_DIR)keywords.awk $$i; \
 	done > $@
 
