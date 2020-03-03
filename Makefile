@@ -29,6 +29,6 @@ files.txt :
 	for i in *.html */*.html; do echo '<file>'$$i'</file>'; done > $@
 
 test :
-	assistant-qt4 -register cspice.qch
-	assistant-qt4
-	assistant-qt4 -unregister cspice.qch
+	assistant -register cspice.qch
+	assistant
+	assistant -unregister cspice.qch

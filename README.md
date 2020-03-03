@@ -5,7 +5,7 @@ Makefile to create QtHelp document from cspice documentation from naif.jpl.nasa.
 You will need:
 * cspice installation [Toolkit](http://naif.jpl.nasa.gov/naif/toolkit.html) (spice, mice or icy should theoretically work, untested)
 * qhelpgenerator
-* assistant-qt4 (for test)
+* assistant (for test)
 * awk
 * sed
 
@@ -23,5 +23,5 @@ Optionally:
 ```Shell
     make -f ~/CSpice-QtHelp/Makefile test
 ```
-Now you have a `cspice.qch` ready for use in `assistant-qt4` or `kdevelop`
+Now you have a `cspice.qch` ready for use in `assistant` or `kdevelop`
 
